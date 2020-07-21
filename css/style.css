@@ -1,0 +1,43 @@
+:root {
+    --main-color: black;
+}
+body {
+    max-width: 1000px;
+    margin: auto;
+} 
+.logo img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.menu {
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+.menu a {
+   margin-left: 100px;
+   margin-top: 25px;
+  
+}
+@media (min-width: 500px) {
+    header {
+         display: flex;
+         justify-content: space-around;
+         flex: 1;
+    }
+    }
+header > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: KB Vibrocentric;
+    font-size: 13px;
+    color:var(--main-color);
+}
+header > div > a:hover {
+    border:2px solid var(--main-color);
+    border-width: 0px 0px 1.5px 0px;
+}
+.carusel {
+    padding-top: 20px;
+}
