@@ -26,73 +26,45 @@
     </header>
        <!--Main Container-->
     <main>
-
-        <div class="carusel">
-            <img src="img/carusel.jpg" alt="carusel-image-one">
-            <!--
-            <img src="" alt="carusel-image-two">
-            <img src="" alt="carusel-image-three">
-            <img src="" alt="carusel-image-four(maybe)">
-              -->
-        </div>
+              <!--Caruseul-->
+              <div class="carousel">
+                <input id="image1" type="radio" name="image-selector" checked="checked" />
+                <label for="image4">View image 4</label>
+                <img src="img/carusel.jpg" alt="carusel">
+              
+                <input id="image2" type="radio" name="image-selector" />
+                <label for="image1">View image 1</label>
+                <img src="img/bestprices.jpg" alt="bestprices">
+              
+                <input id="image3" type="radio" name="image-selector" />
+                <label for="image2">View image 2</label>
+                <img src="img/hits.jpg" alt="hits">
+        
+                
+                <label for="image3">View image 3</label>
+                <label for="image1">View image 1</label>
+              </div>
+              
          <!--Wrapper-->
 
-       <div id="wrapper">
-        <div>        
-           <p>Каталог товарів</p>
-           <ul>
-             <li>Смартфони Apple</li>
-             <li>Смартфони Xiomi</li>
-             <li>Захісні стікла/Плівки</li>
-             <li>Чохли</li>
-             <li>Навушніки/Гарнітура</li> 
-             <li>Портативні колонки</li>
-             <li>Смарт годиники <br/>та аксесуари до них</li>
-             <li>Зарядні пристрої</li>
-             <li>Кабелі/Перехідники</li>
-             <li>Акумулятори для телефонів</li>
-             <li>Запчастини до телефонів</li>
-           </ul>
-        </div>
-        <div>
+  <div id="wrapper">
+       <div class="mainstore"> 
+             <div class="mainimage">
+                           <img src="img/mainimage.jpg" alt="mainimage">
+               </div>    
+        <div class="foto">
             <p>Радимо придбати!</p>
-            <!--Зробив табличку поки немає CSS-->
-            <table>
-                <tbody>
-                    <tr>
-                        <td><img src="img/iphonerecomanded.jpg" alt="iphone-recomended" height="300" width="420"></td>
-                        <td><img src="img/xiomirecomanded.jpg" alt="xiomi-recomanded" height="300" width="420"></td>
-                        <td><img src="img/siliconcase-recomended.jpg" alt="siliconcase-recomended" height="300" width="420"></td>
-                    </tr>
-                    <tr>
-                        <td>Apple Iphone</td>
-                        <td>Смартфони Xiomi</td>
-                        <td>Silicon Case and other</td>
-                    </tr>
-                </tbody>
-            </table>
+             <section class="photo">
+               <img src="img/iphonerecomanded.jpg" alt="iphone-recomended">
+               <img src="img/xiomirecomanded.jpg" alt="xiomi-recomanded">
+               <img src="img/siliconcase-recomended.jpg" alt="siliconcase-recomended">
+            <div>
+                 <a href="" class="aone">Apple Iphone</a>
+                 <a href="" class="atwo">Смартфони Xiomi</a>
+                 <a href="" class="athree">Silicon Case and other</a>
+            </div> 
+          </section>  
         </div>
-             
-          <div>
-              <p>Останій відгук</p>
-              <img src="img/iconmen.png" alt="iconmen">
-              <span>Христина</span><br>
-              <span>19.07.2020</span>
-              <span>Відмінно <b style="color: yellow;">★★★★★</b></span>
-              <p>Продавця рекомендую. Замовляла захисне скло на телефон,<br/> відправили вчасно. Спасибі!
-
-                Як швидко з вами зв'язалися після замовлення / повідомлення?<br>
-                
-                Протягом 30 хвилин<br>
-                
-                Ціна, наявність і опис товару (послуги) були вказані правильно?<br>
-                
-                Так<br>
-                
-                Замовлення було виконано (доставлений) в обумовлені терміни?<br>
-                
-                Так</p>
-          </div> 
 
         <div>
             <p>Мінімум 6 причин здійснити покупку в BLACK-ANGAR</p>
@@ -150,41 +122,80 @@
             <p>Наш інтернет-магазин працює для вас щодня. Скористайтеся можливістю замовити смартфон або необхідні аксесуари на<br/> вигідних для вас умовах. Якщо у вас залишилися питання, наші консультанти будуть раді надати вичерпну інформацію<br> про будь-який товар.</p>
             <input type="button" name="click to order" value="Вибрати товар">
         </div>
-        <!--Контакти-->
-        <div>
-           <p>Контакти</p>
-           <p><img src="img/iconbulding.png" alt="iconbulding" height="25" width="25">Компанія<br/>Black APPLE</p>
-           <p><img src="img/iconlocation.png" alt="iconlocation" height="27" width="26">Адреса<br/>Львов Львовская область,<br/>Б.Хмельницького 188</p>
-           <p><img src="img/iconuser.png" alt="iconuser" height="27" width="26">Контактна особа<br/>Анастасія</p>
-           <p><img src="img/iconmail.png" alt="iconemail" height="25" width="25">Email<br/><a href="mailto:angarblack@gmail.com">angarblack@gmail.com</a></p>
-           <p><img src="img/icontelefon.png" alt="icontelefon" height="26" width="26">Телефони<br/> +380636221122<br/> +380966231122</p>
-        </div>
-    </div>  
-
-        <!--Каруселька з товарами(незнаю як ще правильно коментувати)-->
         <div>
             <p>Ми рекомендуємо</p>
-            <input type="button" name="pointer" value="⊲" style="border-radius: 50%; background-color: black; color: #ffffff;">
-            <input type="button" name="pointer" value="⊳" style="border-radius: 50%; background-color: black; color: #ffffff;"><br>
+            
             <img src="img/tovar.jpg" alt="tovar" height="190" width="170"><br>
             <span>Силіконовий чехол<br>
                 <i> Apple Original Silicone case iPhone 6 Plus / 6S Plus Brown</i>
             </span>
         </div>
+    </div>  
+      
+       <div>
+        <div class="catalog">   
+            <p>☰ Каталог товарів</p>
+              <ul>
+                <li><a></a>▸ Смартфони Apple</li>
+                <li>▸ Смартфони Xiomi</a></li>
+                <li>▸ Захісні стікла/Плівки</a></li>
+                <li>▸ Чохли</a></li>
+                <li>▸ Навушніки/Гарнітура</a></li> 
+                <li>▸ Портативні колонки</a></li>
+                <li>▸ Смарт годиники <br/>та аксесуари до них</a></li>
+                <li>▸ Зарядні пристрої</a></li>
+                <li>▸ Кабелі/Перехідники</a></li>
+                <li>▸ Акумулятори для телефонів</a></li>
+                <li>▸ Запчастини до телефонів</a></li>
+              </ul>
+          </div>
+          <div class="responce">
+            <p>Останій відгук</p>
+            <img src="img/iconmen.png" alt="iconmen">
+            <span>Христина</span><br>
+            <span>19.07.2020</span>
+            <span>Відмінно <b style="color: yellow;">★★★★★</b></span>
+            <p>Продавця рекомендую. Замовляла захисне скло на телефон,<br/> відправили вчасно. Спасибі!
+
+              Як швидко з вами зв'язалися після замовлення / повідомлення?<br>
+              
+              Протягом 30 хвилин<br>
+              
+              Ціна, наявність і опис товару (послуги) були вказані правильно?<br>
+              
+              Так<br>
+              
+              Замовлення було виконано (доставлений) в обумовлені терміни?<br>
+              
+              Так</p>
+          </div> 
+              <!--Контакти-->
+         <div>
+            <p>Контакти</p>
+            <p><img src="img/iconbulding.png" alt="iconbulding" height="25" width="25">Компанія<br/>Black APPLE</p>
+            <p><img src="img/iconlocation.png" alt="iconlocation" height="27" width="26">Адреса<br/>Львов Львовская область,<br/>Б.Хмельницького 188</p>
+            <p><img src="img/iconuser.png" alt="iconuser" height="27" width="26">Контактна особа<br/>Анастасія</p>
+            <p><img src="img/iconmail.png" alt="iconemail" height="25" width="25">Email<br/><a href="mailto:angarblack@gmail.com">angarblack@gmail.com</a></p>
+            <p><img src="img/icontelefon.png" alt="icontelefon" height="26" width="26">Телефони<br/> +380636221122<br/> +380966231122</p>
+          </div>
+         </div>
+       </div>  
     </main>    
       <!--Footer Container-->
-    <footer>
-        <div>
-            <p>Контакти</p>
+    <footer id="footer">
+        <div class="footer">
+          <div class="contacts">
+            <p><b>Контакти</b></p>
             <p><img src="img/iconbulding.png" alt="iconbulding" height="32" width="32">Компанія<br/>Black APPLE</p>
-            <p><img src="img/iconlocation.png" alt="iconlocation" height="33" width="33">Адреса<br/>Львов Львовская область,Б.Хмельницького 188</p>
-            <p><img src="img/iconuser.png" alt="iconuser" height="34" width="33">Контактна особа<br/>Анастасія</p>
-            <p><img src="img/iconmail.png" alt="iconemail" height="32" width="32">Email<br/><a href="mailto:angarblack@gmail.com">angarblack@gmail.com</a></p>
-            <p><img src="img/icontelefon.png" alt="icontelefon" height="33" width="33">Телефони<br/> +380636221122<br/> +380966231122</p>
-            <p><img src="img/icontelegram.png" alt="icontelegram" height="33" width="33">Telegram<br/>+380633950060</p>
-            <p><img src="img/iconviber.png" alt="iconviber" height="33" width="33">Viber<br/>+380633950060</p>
-            <p><img src="img/iconworkschedule.png" alt="iconworkschedule" height="40" width="40">Графік роботи</p>
-            <table>
+            <p><img src="img/iconlocation.png" alt="iconlocation" height="33" width="33"><b>Адреса</b><br/>Львов Львовская область,Б.Хмельницького 188</p>
+            <p><img src="img/iconuser.png" alt="iconuser" height="34" width="33"><b>Контактна особа</b><br/>Анастасія</p>
+            <p><img src="img/iconmail.png" alt="iconemail" height="32" width="32"><b>Email</b><br/><a href="mailto:angarblack@gmail.com">angarblack@gmail.com</a></p>
+            <p><img src="img/icontelefon.png" alt="icontelefon" height="33" width="33"><b>Телефони</b><br/> +380636221122<br/> +380966231122</p>
+            <p><img src="img/icontelegram.png" alt="icontelegram" height="33" width="33"><b>Telegram</b><br/>+380633950060</p>
+            <p><img src="img/iconviber.png" alt="iconviber" height="33" width="33"><b>Viber</b><br/>+380633950060</p>
+          </div>
+             <table>
+                 <caption>Графік роботи</caption>
                 <tbody>
                     <tr>
                         <td>Понеділок</td>
@@ -216,10 +227,8 @@
                     </tr>
                 </tbody>
             </table>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2571.920729949914!2d24.049924115676145!3d49.86273367939849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adce27ab1be71%3A0xc42d07dc062c4f9a!2z0LLRg9C70LjRhtGPINCR0L7Qs9C00LDQvdCwINCl0LzQtdC70YzQvdC40YbRjNC60L7Qs9C-LCAxODgsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1595236575410!5m2!1suk!2sua" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <input type="button" name="GoTop" value="⌂" style="border-radius: 50%; background-color: aqua;">     
-        </div>
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2571.920729949914!2d24.049924115676145!3d49.86273367939849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adce27ab1be71%3A0xc42d07dc062c4f9a!2z0LLRg9C70LjRhtGPINCR0L7Qs9C00LDQvdCwINCl0LzQtdC70YzQvdC40YbRjNC60L7Qs9C-LCAxODgsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1595236575410!5m2!1suk!2sua" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+          </div> 
     </footer> 
 </body>
 </html>
